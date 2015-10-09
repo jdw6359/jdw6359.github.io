@@ -1,13 +1,12 @@
 # Site settings
-title: Clean Blog
+title: All Things Nerdy
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: josh.woodward2693@gmail.com
+description: "This is the site description!"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: jaywoodiee
+github_username:  jdw6359
 
 # Build settings
 markdown: kramdown
