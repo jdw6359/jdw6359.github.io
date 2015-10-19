@@ -12,3 +12,8 @@ header-img: "img/tropper.jpg"
 <h2 class="section_heading">This is a heading for the section</h2>
 
 <blockquote>This is a blockquote right here</blockquote>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">This is a span here. I am testing the markdown for span</span>
