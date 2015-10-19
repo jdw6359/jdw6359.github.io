@@ -4,7 +4,7 @@ title:      "Cassandra: The Girl Of Your Dreams"
 subtitle:   "The Open Source, Distributed, Decentralized, and Highly Available NoSQL datastore."
 date:       2015-10-18 12:00:00
 author:     "Josh Woodward"
-header-img: "img/tropper.jpg"
+header-img: "img/trooper.jpg"
 ---
 
 <p>This is a test paragraph</p>
