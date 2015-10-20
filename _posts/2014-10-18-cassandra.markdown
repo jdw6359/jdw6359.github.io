@@ -7,13 +7,8 @@ author:     "Josh Woodward"
 header-img: "img/boba.jpg"
 ---
 
-<p>This is a test paragraph</p>
+<p>This post is a work in progress. Check back soon for updates!</p>
 
-<h2 class="section_heading">This is a heading for the section</h2>
+<h2 class="section-heading">Installing Cassandra</h2>
 
-<blockquote>This is a blockquote right here</blockquote>
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
-</a>
-<span class="caption text-muted">This is a span here. I am testing the markdown for span</span>
+<p>These are details on how to install Cassandra</p>
