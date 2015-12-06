@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "Hosting a MySQL Database with RDS on AWS"
+subtitle:   "How to get up and running with the Particip8 application."
+date:       2015-12-06 12:00:00
+author:     "Josh Woodward"
+header-img: "img/boba.jpg"
+---
+
+<p>This series of posts willl assist you in getting the Particip8 application up and running. In this post, I will walk you through the setup and hosting of a MySQL Database with RDS on AWS<p>    
+
+<h2 class="section-heading">Prerequisites</h2>
+<p>Before you can instantiate machines on AWS's cloud, you must first have an AWS account. You can use the following link to access AWS's management application, and sign up for an account: <a href="https://aws.amazon.com/?nc2=h_lg">Amazon Web Services</a></p> 
+
+<h2 class="section-heading">AWS Portal</h2>
+<p>After logging into the AWS console, clicking into the RDS link under the 'Databases' section will bring up the RDS Dashboard. Under the 'Instances' tab on the left pane of the management interface, a 'Launch DB Instance' button will allow for a new DB Instance to be created.</p>
+
+<h2 class="section-heading">RDS Configuration</h2>
+<p>The configuration of the db instance is fairly straightforward, but important.</p>
+<p><b>Step 1</b> will have you select a database engine. Select the 'MySQL' engine, and proceed.</p>
+<p><b>Step 2</b> will ask if you plan to use the database for production purposes. The application infastructure is intended to run on the 'free tier' provided by AWS, so indicate this decision by selecting 'no'.
+<p><b>Step 3</b> prompts for several details regarding the new db instance. Do not change any of the details in the 'Instance Specifications' section, but make sure to provide the following fields under the 'Settings' section:</p>
+<ul>
+	<li><b>DB Instance Identifier: </b>The initial portion of the db url</li>
+	<li><b>Master Username: </b>The username of initial administrative user</li>
+	<li><b>Master Password: </b>The password used to connect to the hosted db instance</li>
+</ul>
+<p><b>Step 4</b> - There is no need to change any of the advanced settings for the instance, so simply click through this step, confirming the default advanced settings.</p>
+
+<h2 class="section-heading">Utilizing the DB Instance</h2>
+<p>After confirming (in 'Running Instances') that the db instance has started up, you may now connect to the database in any way you see fit. A future post will discuss creating a connection with the Rails web application Framework, but you may also elect to use tools such as MySQL Workbench, or a simple terminal-based client.</p> 
